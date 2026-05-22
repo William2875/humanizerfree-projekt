@@ -314,6 +314,8 @@
     <a href="#om">Om verktyget</a>
     <a href="#experiment">Experiment</a>
     <a href="#resultat">Resultat</a>
+    <a href="#skärmbild">Skärmbild</a>
+    <a href="#utvardering">Utvärdering</a>
     <a href="#analys">Analys</a>
   </div>
 </nav>
@@ -554,9 +556,56 @@
   </table>
 </div>
 
+<!-- SKÄRMBILD -->
+<section id="skärmbild">
+  <div class="section-label">04 · Verktyget i praktiken</div>
+  <h2>Så såg humaniseringen ut</h2>
+  <p>
+    Nedan visas en skärmdump från HumanizerFree under experimentet. Till vänster syns den ursprungliga AI-texten från ChatGPT, och till höger den omskrivna versionen som verktyget genererade. Längst ner visade verktyget själv etiketten <strong style="color:var(--pass)">"100% Human Written"</strong>.
+  </p>
+  <div style="margin-top:2rem; border:1px solid var(--border); border-radius:2px; overflow:hidden;">
+    <div style="background:var(--surface); padding:0.75rem 1.25rem; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:0.7rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.1em;">Skärmdump · humanizerfree.com</span>
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:0.7rem; color:var(--pass);">● 100% Human Written</span>
+    </div>
+    <img src="1779432990110_image.png" alt="Skärmdump av HumanizerFree med AI-text till vänster och humaniserad text till höger" style="width:100%; display:block;"/>
+  </div>
+  <p style="margin-top:1.25rem; font-size:0.85rem; color:var(--muted); font-family:'IBM Plex Mono',monospace;">
+    Observera att HumanizerFree själv påstår att texten är "100% Human Written" – men som experimentet visade stämmer det bara för vissa detektorer.
+  </p>
+</section>
+
+<!-- UTVÄRDERING -->
+<section id="utvardering">
+  <div class="section-label">05 · Utvärdering</div>
+  <h2>Hur var verktyget att använda?</h2>
+  <p>
+    HumanizerFree är ett enkelt och lättanvänt verktyg. Man klistrar in sin text, trycker på en knapp, och får tillbaka en omskriven version inom några sekunder. Det krävs ingen registrering och det är helt gratis, vilket gör det väldigt tillgängligt.
+  </p>
+  <p>
+    Resultaten från experimentet visar att verktyget fungerar – men ojämnt. Det lyckades lura två av fyra AI-detektorer fullständigt, medan en tredje fortfarande identifierade texten som 90% AI-genererad med kommentaren att texten verkade ha skrivits om av en AI eller människa. Det tyder på att verktyget är tillräckligt sofistikerat för att förändra textens mönster, men inte tillräckligt för att alltid passera som mänsklig.
+  </p>
+  <div class="callout">
+    <strong>Observation:</strong> Den omskrivna texten känns ibland lite stel och onaturlig när man läser den själv, även om detektorerna godkänner den. Verktyget prioriterar alltså att lura algoritmer snarare än att faktiskt låta som en människa.
+  </div>
+  <p>
+    Sammantaget är HumanizerFree ett intressant verktyg att studera, men experimentet visar tydligt att varken humaniseringsverktyg eller AI-detektorer är helt pålitliga. De motverkar varandra i en ständig kapprustning där ingen sida verkar vinna helt.
+  </p>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:2rem;">
+    <div class="info-block">
+      <h3>✓ Fördelar</h3>
+      <p>Gratis · Ingen registrering · Snabbt · Enkelt gränssnitt · Fungerar mot flera detektorer</p>
+    </div>
+    <div class="info-block">
+      <h3>✗ Nackdelar</h3>
+      <p>Begränsat till 250 ord · Ojämna resultat · Texten kan låta stel · Etiskt tveksamt användningsområde</p>
+    </div>
+  </div>
+</section>
+
 <!-- ANALYS -->
 <section id="analys">
-  <div class="section-label">04 · Analys & slutsats</div>
+  <div class="section-label">06 · Analys & slutsats</div>
   <h2>Vad kan vi dra för slutsatser?</h2>
 
   <p>
